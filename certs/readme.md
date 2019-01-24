@@ -3,7 +3,7 @@ Store your entreprise crt in this directory to make them available to any collec
 
 Procedure:
 1. Add your crt in this directory
-2. Add a volume in your docker-compose.override.yml to mount the directory:
+2. Add a volume in your docker-compose.override.yml for each of the applicable collectors to mount the directory:
 ```
 volumes:
   - ./certs:/certs
